@@ -1,6 +1,9 @@
 # GAMMA API wannabe wrapper 
 Wrapper for the GAMMA API
 
+> [!WARNING]
+> In construction.
+
 ## Requirements
 Python 3.10.12 or greater
 No special requirements to be installed
@@ -16,11 +19,21 @@ python3 gamma_api.py --operation=kpi_dashboard --networks=arbitrum --ini_timesta
 ```
 
 
-Available commands can be checked in the ***config/command_line.py*** file
+Available run commands:
+    **operation**: 
+    Available options:
+        ***kpi_dashboard***: creates a csv file with info related to our kpis
+
+
+( all commands are present in the ***config/command_line.py*** file )
+
 
 
 ### List of commands
 U can pass a json file as a list of commands. just create a <commands.json> file containing the desired parameters, like this:
+
+> [!NOTE]
+> This example file creates a ***csv*** file in the ***exports*** folder with the kpi_dashboard related data for the Arbitrum network, between the timestamps provided and at an interval of 604800 seconds...
 
 ```json
 {
