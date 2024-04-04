@@ -1,4 +1,4 @@
-# GAMMA API wannabe wrapper 
+# GAMMA API wrapper 
 Wrapper for the GAMMA API
 
 > [!WARNING]
