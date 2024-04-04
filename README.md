@@ -20,8 +20,11 @@ python3 gamma_api.py --operation=kpi_dashboard --networks=arbitrum --ini_timesta
 
 
 Available run commands:
+
     **operation**: 
-    Available options:
+
+    Operation options:
+
         ***kpi_dashboard***: creates a csv file with info related to our kpis
 
 
